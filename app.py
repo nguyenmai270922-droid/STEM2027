@@ -22,10 +22,13 @@ RESEARCH_PWD = "dongphu2026"
 
 # 1. Cấu hình giao diện
 st.set_page_config(
-    page_title="Nghiên Cứu Video Ngắn & Sức Bền Chú Ý | THPT Đồng Phú",
+    page_title="STEM 2026-2027 | THPT Đồng Phú",
     page_icon="🎓",
     layout="wide"
 )
+
+# Banner đầu trang
+st.image("banner_dongphu.png", use_container_width=True)
 
 # 2. CSS thẩm mỹ, tự xuống dòng checkbox, không bị cắt chữ
 st.markdown("""
