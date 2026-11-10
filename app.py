@@ -57,7 +57,7 @@ CLASSES_BY_GRADE = {
 }
 
 # --- THANH ĐIỀU HƯỚNG BÊN TRÁI (SIDEBAR) ---
-st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=90)
+st.sidebar.image("banner_dongphu.png", width=270)
 st.sidebar.markdown("""
     <div style="margin-bottom: 15px; margin-top: 5px;">
         <h4 style="margin: 0; color: #1e3a8a; font-weight: 700; font-size: 17px;">TRƯỜNG THPT ĐỒNG PHÚ</h4>
@@ -70,9 +70,6 @@ menu = st.sidebar.radio("📌 Điều hướng hệ thống:", [
     "🎯 2. Nhật Ký Can Thiệp 21 Ngày (Nhóm Thực Nghiệm)",
     "📊 3. Báo Cáo & Phân Tích Dữ Liệu Thực Tế (Ban Nghiên Cứu)"
 ])
-
-# Banner trường đặt dưới danh sách điều hướng bên trái
-st.sidebar.image("banner_dongphu.png", width=270)
 
 # Banner chính theo thiết kế chuẩn KHKT
 st.markdown("""
