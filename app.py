@@ -59,7 +59,7 @@ st.sidebar.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", widt
 st.sidebar.markdown("""
     <div style="margin-bottom: 15px; margin-top: 5px;">
         <h4 style="margin: 0; color: #1e3a8a; font-weight: 700; font-size: 17px;">TRƯỜNG THPT ĐỒNG PHÚ</h4>
-        <p style="margin: 2px 0 0 0; font-size: 12px; color: #64748b;">Nghiên Cứu KHKT 2026 - 2027</p>
+        <p style="margin: 2px 0 0 0; font-size: 12px; color: #64748b;">STEM 2026-2027</p>
     </div>
 """, unsafe_allow_html=True)
 
