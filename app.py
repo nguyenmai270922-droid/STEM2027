@@ -27,8 +27,10 @@ st.set_page_config(
     layout="wide"
 )
 
-# Banner đầu trang
-st.image("banner_dongphu.png", use_container_width=True)
+# Banner nhỏ ở góc trên bên phải
+_spacer_col, _banner_col = st.columns([9, 2])
+with _banner_col:
+    st.image("banner_dongphu.png", width=220)
 
 # 2. CSS thẩm mỹ, tự xuống dòng checkbox, không bị cắt chữ
 st.markdown("""
