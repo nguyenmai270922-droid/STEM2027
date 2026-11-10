@@ -27,10 +27,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# Banner nhỏ ở góc trên bên phải
-_spacer_col, _banner_col = st.columns([9, 2])
-with _banner_col:
-    st.image("banner_dongphu.png", width=220)
+
 
 # 2. CSS thẩm mỹ, tự xuống dòng checkbox, không bị cắt chữ
 st.markdown("""
@@ -73,6 +70,9 @@ menu = st.sidebar.radio("📌 Điều hướng hệ thống:", [
     "🎯 2. Nhật Ký Can Thiệp 21 Ngày (Nhóm Thực Nghiệm)",
     "📊 3. Báo Cáo & Phân Tích Dữ Liệu Thực Tế (Ban Nghiên Cứu)"
 ])
+
+# Banner trường đặt dưới danh sách điều hướng bên trái
+st.sidebar.image("banner_dongphu.png", width=270)
 
 # Banner chính theo thiết kế chuẩn KHKT
 st.markdown("""
